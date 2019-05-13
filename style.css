@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+h1{background-color:  #20B2AA};}
+ .navbar {display: inline-block;
+    float:right; color:white; background: #20B2AA; } 
+nav a{color: white; background: #20B2AA; font-weight: bold;
+    /* margin-left:110px; */
+}
+
+.nav.navbar-nav li a{color: white;}
+
+.nav.navbar-nav.navbar-right li a {
+    color:black; background-color: white; font-size: 75%; font-weight:bold;}
+
+body{border-bottom: 60px solid rgb(138, 138, 138);
+border-top: 10px solid #20B2AA;}
+
+h3 {      font-size: 00%;     } 
+      
+
+/* nav right{color:white; background: white; text-emphasis: strong;}  */
+/* 
+.navbar-default {background-color: #69899f;}
+ 
+.navbar-default .navbar-brand {color: white;} */
+
+/* nav a{color: white;background: #20B2AA} */
+
+@media(min-width: 480px)
+    {.sidebar{float:right;}
+    .main{float:left;}
